@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ),
+  url('https://media.istockphoto.com/id/1421252769/photo/driver-of-semi-truck-sitting-and-driving-his-vehicle.jpg?s=612x612&w=0&k=20&c=vkQ9XxMY_a0fo8RVvaBf2YQvagRZj2ZcwcZNfI1XaLk=') center/cover no-repeat;
+  color: #fff;
+  padding: 150px 0;
+  background-repeat: cover;
+  text-align: center;
+}
+.hit-the-floor {
+  color:#fff;
+  font-size: 5em;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.features {
+  background: #f2f2f2;
+  padding: 40px 0;
+}
+
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.how-it-works {
+  padding: 60px 0;
+}
+
+.how-it-works h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.get-started {
+  background: #0077b6;
+  color: #fff;
+  padding: 60px 0;
+}
+
+button {
+  background: #005f8d;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #004772;
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 40px 0;
+  background: #fff;
+}
+
+.reviews-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.reviews-section button {
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.reviews-section button:hover {
+  background: #004772;
+}
+
+.reviews-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reviews-section li {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.review-form {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.review-form h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.review-form button {
+  background: #005f8d;
+  color: #fff
+}
